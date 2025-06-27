@@ -4,7 +4,10 @@ class Main {
 
     public static void main(String[] args) {
         //define variables
-        char choice = 'n';
+        char choice = 'c';
+        System.out.println("Changes made");
+ 
+
         //scanner is defined for you
         Scanner scanner = new Scanner(System.in);
  
