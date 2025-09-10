@@ -9,17 +9,17 @@ class Main {
         char choice = displayMenu(new Scanner(System.in));
         choice = Character.toLowerCase(choice);
         
-       if (choice == 'a') {
-    System.out.println("You selected option a.");
+        if (choice == 'a') {
+        System.out.println("You selected option a.");
 
-} else if (choice == 'b') {
-    System.out.println("You selected option b.");
+    }  else if (choice == 'b') {
+        System.out.println("You selected option b.");
 
-} else if (choice == 'c') {
-    System.out.println("You selected option c.");
+    }  else if (choice == 'c') {
+        System.out.println("You selected option c.");
 
-} else {
-    System.out.println("Please choose a valid option.");
+    }  else {
+        System.out.println("Please choose a valid option.");
 }
 
  
