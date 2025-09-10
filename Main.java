@@ -110,6 +110,7 @@ class Main {
             } else if (c != '0') {
                 return -1;
             }
+        //      pow *= 2
             pow *= 2;
         }
 
@@ -118,7 +119,6 @@ class Main {
         System.out.println("Decimal: " + decimal);
 
         return 1;
-        //      pow *= 2
 
 
     }
